@@ -1,22 +1,17 @@
 * {
 	margin: 0;
+	
 }
 
 header {
 	background-color: #212121;
-	margin: 15px 15px 0px 15px; 
 	padding: 30px 30px;
 }
 
 section.Content {
-  	background-color: #252522;
-  	max-width: 1250px;
-  	margin: 0px 15px ;
-  	padding: 15px;
-}
-
-div.logo {
-	padding:auto;
+  	background-color: #2a2a2a;
+	padding: 15px;
+	text-align: center;
 }
 
 .logo img{
@@ -25,19 +20,14 @@ div.logo {
 	height: auto; 
 }
 
-.nav {
-	max-width: 1000px;
-	margin: auto;
-}
 
-ul {
+div.nav ul {
 	float: right;
 	list-style-type: none;
 }
 
 ul li {
 	display: inline-block;
-	
 }
 
 ul li a {
@@ -62,7 +52,6 @@ div.we {
 
 div.main{
 	text-align: center;
-	font-family: Arial, Helvetica, sans-serif;
 	font-size: 18px;
 	color: #dadada;
 }
@@ -81,52 +70,49 @@ div.parag p {
 
 div.bttn {
 	padding: 20px 43%;
+	text-align: center;
 	
 }
 
-button.btn {
-	background-color: #f67468;
-	border: none;
-  	color: white;
-  	font-weight: bold;
-  	padding: 10px 30px;
-  	text-align: center;
-  	text-decoration: none;
-  	display: inline-block;
-  	font-size: 10px;
-	border-radius: 4px; 
-	min-width: 0;  
-}
+	button.btn {
+		background-color: #f67468;
+		border: none;
+		color: white;
+		font-weight: bold;
+		padding: 10px 30px;
+		text-align: center;
+		text-decoration: none;
+		display: inline-block;
+		font-size: 10px;
+		border-radius: 4px; 
+		min-width: 0;  
+	}
+
+	.btn:hover {
+		background-color: #595959;
+		color: white;
+	}
+
+	#active-all {
+		background-color: #595959;
+		color: white;
+	}
 
 section.services {
 	background-color: #f8f8f8;
-    max-width: 1300px;
-    margin: 0px 15px 15px 15px;
-    padding: 100px 10px 100px 10px;
+	padding: 10px;
 }
 	.services ul {
-		padding: 0px 100px;
-    	margin: -100px;
+		text-align: center;
 	}
 
 	.services ul li {
 		width: 250px;
     	height: 165px;
-		list-style: none;
-		float: left;
-		margin: 40px 20px 0px 20px;
 
-	}
-
-	li div.img {
-		padding-left: 85px;
-	}
-
-	h1.titel {
-		text-align: center;
 	}
 	
-	p.text {
+	p.text, h1.titel {
 		opacity: 0.35;
 		text-align: center;
 		display: block;
@@ -134,3 +120,50 @@ section.services {
 		padding-left: 0;
 		margin-bottom: 1em;
 	}
+
+section.portfolio {
+	text-align: center;
+}
+
+	.portfolio h1 {
+		margin-top: 35px;
+	}
+
+	.portfolio p {
+		margin-top: 15px;
+	}
+	.portfolio div.buttons {
+		margin-top: 35px;
+	}
+	.portfolio div.images {
+		margin-top: 20px;
+	}
+
+	img.img:hover {
+		transform: translateY(10px);
+	}
+
+	img.img:hover:before {
+		opacity: 1;
+	}
+
+section.foot {
+	background-color: #2a2a2a;
+	text-align: center;
+	margin-top: 20px;
+	text-decoration: none;
+	color: #dadada;;
+}
+	section.foot h1{
+		font-weight: bold;
+		margin-bottom: 10px;
+	}
+
+footer {
+	background-color: #212121;
+	color: #dadada;
+	text-align: center;
+	padding: 30px 30px;
+	
+
+}
