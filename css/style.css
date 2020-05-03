@@ -1,11 +1,10 @@
 * {
 	margin: 0;
-	
 }
 
 header {
 	background-color: #212121;
-	padding: 30px 30px;
+	padding: 40px 155px;
 }
 
 section.Content {
@@ -14,46 +13,47 @@ section.Content {
 	text-align: center;
 }
 
-.logo img{
-	float: left;
-	width: 60px;
+div.logo{
+	margin:0 100px;
+}
+
+div.logo img{
+	width: 70px;
 	height: auto;
 }
 
-div.logo {
-	padding-left: 100px; 
-}
-
-
-div.nav ul {
-	float: right;
-	list-style-type: none;
-	padding-right: 120px;
+div.nav {
+	display: inline-flex;
 }
 
 ul li {
 	display: inline-block;
 }
 
-div.nav ul li a {
-	text-decoration: none;
-	font-weight: bold;
-	color: white;
-  	padding: 14px 16px;
+ul.navbar{
+	float: left;
 }
 
-ul li a:hover{
+div.nav ul li a:hover{
 	color: #a25451 ;
 }
 
-.active {
+div.nav ul li a {
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 14px;
+	color: white;
+	padding-left: 50px;
+}
+
+div.nav ul li a.active {
 	color: #a25451 ;
 }
 
 div.we {
 	font-size: 30px;
-	padding-bottom: 10px;
-	padding-top: 20px;
+	margin-bottom: 10px;
+	margin-top: 20px;
 }
 
 div.main{
@@ -71,13 +71,13 @@ div.parag p {
 	
 	text-align: center;
 	color: #dadada;
-	padding: 0 425px;
     font-size: smaller;
-    font-style: italic;
+	font-style: italic;
 }
 
 div.bttn {
-	padding: 20px 43%;
+	margin-top: 30px;
+	margin-bottom: 30px;
 	text-align: center;
 	
 }
@@ -89,8 +89,6 @@ div.bttn {
 		font-weight: bold;
 		padding: 10px 30px;
 		text-align: center;
-		text-decoration: none;
-		display: inline-block;
 		font-size: 10px;
 		border-radius: 4px; 
 		min-width: 0;  
@@ -109,6 +107,7 @@ div.bttn {
 section.services {
 	background-color: #f8f8f8;
 	padding: 10px;
+	padding-top: 40px;
 }
 	.services ul {
 		text-align: center;
@@ -119,15 +118,17 @@ section.services {
     	height: 165px;
 
 	}
+
+	h1.titel {
+		margin-top: 10px;
+	}
 	
 	p.text, h1.titel {
-		opacity: 0.35;
+		opacity: 0.5;
 		text-align: center;
-		display: block;
-		width: 100%;
-		padding-left: 0;
-		margin-bottom: 1em;
+		margin-bottom: 5px;
 	}
+
 
 section.portfolio {
 	text-align: center;
@@ -210,6 +211,5 @@ footer {
 	color: #dadada;
 	text-align: center;
 	padding: 30px 30px;
-	
 
 }
