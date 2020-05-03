@@ -51,9 +51,11 @@ div.nav ul li a.active {
 }
 
 div.we {
-	font-size: 30px;
+	font-size: 40px;
 	margin-bottom: 10px;
 	margin-top: 20px;
+	font-family: 'Lato', sans-serif;
+	font-weight: inherit;
 }
 
 div.main{
@@ -63,16 +65,19 @@ div.main{
 }
 
 span.Webpaint {
-	font-weight: bold;
+	font-weight: 900;
 	color: #dadada;
+	font-size: 45px;
 }
 
 div.parag p {
 	
 	text-align: center;
 	color: #dadada;
-    font-size: smaller;
 	font-style: italic;
+	font-family: 'Lato';
+	font-weight: 300;
+	font-size: xx-large;
 }
 
 div.bttn {
@@ -115,37 +120,50 @@ section.services {
 
 	.services ul li {
 		width: 250px;
-    	height: 165px;
+		height: 165px;
 
 	}
 
 	h1.titel {
 		margin-top: 10px;
+		font-weight: 700;
 	}
 	
 	p.text, h1.titel {
 		opacity: 0.5;
 		text-align: center;
 		margin-bottom: 5px;
+		font-family: 'Lato';
 	}
 
 
 section.portfolio {
 	text-align: center;
+	font-family: 'Lato';
+
+
 }
 
 	.portfolio h1 {
 		margin-top: 35px;
+		color: #616161;
+		font-weight: 900;
+		font-size: x-large;
 	}
 
 	.portfolio p {
 		margin-top: 15px;
+		color: #616161;
+		font-size: small;
+		font-size: 20px;
+		opacity: 0.55;
 	}
 	.portfolio div.buttons {
 		margin-top: 35px;
 	}
 	.portfolio div.images {
-		margin-top: 20px;
+		margin-top: 30px;
+		margin-bottom: 50px;
 	}
 
 	img.img:hover {
@@ -157,14 +175,15 @@ section.foot {
 	text-align: center;
 	margin-top: 20px;
 	text-decoration: none;
-	color: #dadada;
 	font-size: 10px;
+	font-family: 'Lato';
 }
 	section.foot h1{
-		font-weight: bold;
+		font-weight: 900;
 		margin-bottom: 10px;
 		padding-top: 30px;
 		font-size: 20px;
+		color: #dadada;
 	}
 
 	div.adress, div.tele {
@@ -191,9 +210,11 @@ section.foot {
 
 	div.info {
 		padding-top: 10px;
+		color: #616161;
 	}
 	p#par {
 		font-size: 15px;
+		color: #616161;
 	}
 
 	div.social ul li {
@@ -208,8 +229,10 @@ section.foot {
 
 footer {
 	background-color: #212121;
-	color: #dadada;
+	color: #616161;
+	font-family: 'Lato';
 	text-align: center;
 	padding: 30px 30px;
+	font-size: x-small;
 
 }
