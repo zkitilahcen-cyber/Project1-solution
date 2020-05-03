@@ -74,7 +74,6 @@ div.parag p {
 	
 	text-align: center;
 	color: #dadada;
-	font-style: italic;
 	font-family: 'Lato';
 	font-weight: 300;
 	font-size: xx-large;
@@ -111,7 +110,6 @@ div.bttn {
 
 section.services {
 	background-color: #f8f8f8;
-	padding: 10px;
 	padding-top: 40px;
 }
 	.services ul {
@@ -119,8 +117,9 @@ section.services {
 	}
 
 	.services ul li {
-		width: 250px;
+		width: 260px;
 		height: 165px;
+		padding-bottom: 60px;
 
 	}
 
