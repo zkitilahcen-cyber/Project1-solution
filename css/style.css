@@ -17,13 +17,18 @@ section.Content {
 .logo img{
 	float: left;
 	width: 60px;
-	height: auto; 
+	height: auto;
+}
+
+div.logo {
+	padding-left: 100px; 
 }
 
 
 div.nav ul {
 	float: right;
 	list-style-type: none;
+	padding-right: 120px;
 }
 
 ul li {
@@ -48,6 +53,7 @@ ul li a:hover{
 div.we {
 	font-size: 30px;
 	padding-bottom: 10px;
+	padding-top: 20px;
 }
 
 div.main{
@@ -65,7 +71,9 @@ div.parag p {
 	
 	text-align: center;
 	color: #dadada;
-	font-family: "Lato-Thin";
+	padding: 0 425px;
+    font-size: smaller;
+    font-style: italic;
 }
 
 div.bttn {
@@ -143,10 +151,6 @@ section.portfolio {
 		transform: translateY(10px);
 	}
 
-	img.img:hover:before {
-		opacity: 1;
-	}
-
 section.foot {
 	background-color: #2a2a2a;
 	text-align: center;
@@ -196,6 +200,11 @@ section.foot {
 		padding-bottom: 30px;
 		padding-right: 5px;
 	}
+
+	img.icon:hover {
+		transform: translateY(5px);
+	}
+
 footer {
 	background-color: #212121;
 	color: #dadada;
